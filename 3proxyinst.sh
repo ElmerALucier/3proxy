@@ -3,7 +3,7 @@ apt-get install -y build-essential nano
 wget http://3proxy.ru/0.7.1.2/3proxy-0.7.1.2.tgz
 tar xzf 3proxy-0.7.1.2.tgz
 cd 3proxy
-make -f Makefile.Linux -y
+make -f Makefile.Linux
 cd src
 mkdir /etc/3proxy/
 mv 3proxy /etc/3proxy/
