@@ -3,9 +3,9 @@
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/mityarko/3proxy/master/3proxyinst.sh
-    chmod +x 3proxyinst.sh
-    ./3proxyinst.sh
+    wget --no-check-certificate https://raw.github.com/mityarko/3proxy/master/3proxy.sh
+    chmod +x 3proxy.sh
+    ./3proxy.sh
 
 After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
 
