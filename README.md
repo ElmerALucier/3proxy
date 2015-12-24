@@ -7,7 +7,7 @@ Download, make executable and run with these lines :
     chmod +x 3proxyinst.sh
     ./3proxyinst.sh
 
-After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!! (you can also change the port, default is 3128)
+After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
 
     nano /etc/3proxy/3proxy.cfg
     
