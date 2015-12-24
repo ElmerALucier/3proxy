@@ -13,7 +13,7 @@ After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
     
 Example change line inside 3proxy.cfg :
     
-    users johndoe:CL:johndoepassword123
+    users john:CL:doe
     
 into this :
 
