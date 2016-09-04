@@ -1,7 +1,7 @@
 apt-get update && apt-get -y upgrade
 apt-get install -y build-essential make gcc
 wget https://github.com/z3APA3A/3proxy/archive/devel.zip
-unzip 3proxy-*
+unzip devel.zip
 cd 3proxy-*
 echo "#define ANONYMOUS 1" >> src/proxy.h
 make -f Makefile.Linux
