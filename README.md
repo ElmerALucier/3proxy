@@ -3,7 +3,7 @@
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/mityarko/3proxy/master/3proxy.sh
+    wget --no-check-certificate https://raw.github.com/ElmerALucier/3proxy/master/3proxy.sh
     chmod +x 3proxy.sh
     ./3proxy.sh
 
