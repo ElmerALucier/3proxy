@@ -1,27 +1,16 @@
-3proxy install script for Debian / Ubuntu VPS
+3proxy install script for VPS
 ======================================================
 
-Download, make executable and run with these lines :
+Just install it :
 
-    wget --no-check-certificate https://raw.github.com/ElmerALucier/3proxy/master/3proxy.sh
-    chmod +x 3proxy.sh
-    ./3proxy.sh
+    yum install 3proxy
+    apt-get install 3proxy
 
-After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
-
-    nano /etc/3proxy/3proxy.cfg
-    
-Example change line inside 3proxy.cfg :
+Use 3proxy.cfg example after installation :
     
     users john:CL:doe
-    
-into this :
-
     users michael:CL:PAssWord99
     
-to change the proxy username to "michael" and the password to "PAssWord99"
-    
-Once you've change the username / password you can start the proxy (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
+Once you've set the username / password you can start the proxy
 
-    /etc/3proxy/3proxy /etc/3proxy/3proxy.cfg &
-
+    service 3proxy restart
