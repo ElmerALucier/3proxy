@@ -1,6 +1,3 @@
-// https://forum.brobot.ru/index.php?/topic/361-ustanovka-3proxy-na-centos-67/
-// chkconfig iptables off && service iptables stop
-// chkconfig ip6tables off && service ip6tables stop
 yum update && yum -y install wget gcc mc net-tools unzip
 wget https://github.com/z3APA3A/3proxy/archive/devel.zip
 unzip devel.zip
