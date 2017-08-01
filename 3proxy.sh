@@ -1,6 +1,6 @@
 apt-get update
 apt-get install -y build-essential make gcc unzip mc
-wget https://github.com/z3APA3A/3proxy/archive/devel.zip
+wget --no-check-certificate https://github.com/z3APA3A/3proxy/archive/devel.zip
 unzip devel.zip
 cd 3proxy-*
 echo "#define ANONYMOUS 1" >> src/proxy.h
